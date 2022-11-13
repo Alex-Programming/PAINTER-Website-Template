@@ -1,0 +1,95 @@
+/*Start General Style*/
+/* Button */
+.button {
+    padding: 15px 25px;
+}
+
+/* Form */
+form {
+    grid-auto-columns: 100%;
+}
+
+form input,
+form textarea {
+    grid-area: auto !important;
+}
+
+/*End General Style*/
+/* Start Home Section */
+.home-section .parent h2 {
+    font-size: 40px;
+}
+
+.home-section .parent p {
+    font-size: 20px;
+}
+
+/* End Home Section */
+/* Start About */
+.about .container .to-painter .text h2,
+.about .container .choose-us .text h2 {
+    font-size: 25px;
+}
+
+.about .container .to-painter .text p,
+.about .container .choose-us .text p {
+    font-size: smaller;
+}
+
+.about .container .to-painter .image,
+.about .container .choose-us .image {
+    grid-template-rows: 550px;
+}
+
+/* End About */
+/* Start Services */
+.section-box {
+    grid-template-columns: auto;
+}
+
+/* End Services */
+.team-section .container .team-box {
+    grid-template-columns: 1fr;
+
+}
+
+/* End Team Section */
+/* Start Blog Section */
+.blog-section .blog-box {
+    grid-template-columns: auto;
+}
+
+/* End Blog Section */
+/* Start Project Section */
+.call-to-action-section .text h2 {
+    font-size: 40px;
+}
+
+.call-to-action-section .text p {
+    font-size: 20px;
+}
+
+/* End Project Section */
+/* Start Footer */
+footer {
+    background: url(../images/footer.jpg) center/cover;
+}
+
+footer .container>div .header-footer span {
+    width: 140px;
+}
+
+footer .container {
+    grid-template-columns: 1fr;
+}
+
+/* End Footer */
+/* Start Copyright */
+.copyright .container {
+    grid-template-columns: 1fr;
+    justify-content: center;
+    row-gap: 15px;
+    text-align: center;
+}
+
+/* End Copyright */

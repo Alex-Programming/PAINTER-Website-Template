@@ -1,0 +1,103 @@
+/*Start General Style*/
+/* Button */
+.button {
+    padding: 12px 15px;
+    display: block;
+    width: fit-content;
+    margin: auto;
+    margin-top: 20px;
+}
+
+/* Section Header */
+.section-header h2 {
+    font-size: x-large;
+}
+
+.section-header span {
+    width: 80px;
+}
+
+/* Form */
+form input[type=submit] {
+    padding: 15px 25px;
+    width: 100%;
+}
+
+/*End General Style*/
+/* Start Header */
+header .title i,
+header .title h1 a {
+    font-size: 20px;
+}
+
+/* End Header */
+/* Start Home Section */
+.home-section .parent h2 {
+    font-size: xx-large;
+}
+
+.home-section .parent p {
+    font-size: 20px;
+}
+
+/* End Home Section */
+/* Start About */
+.about .container .to-painter .text h2,
+.about .container .choose-us .text h2 {
+    font-size: large;
+}
+
+.about .container .to-painter .text p,
+.about .container .choose-us .text p {
+    font-size: 14px;
+}
+
+.about .container .to-painter .image,
+.about .container .choose-us .image {
+    grid-template-rows: 400px;
+}
+
+/* End About */
+/* Start Quote Section */
+.section-quote .container .quote-box h3 {
+    font-size: xx-large;
+}
+
+/* End Quote Section */
+/* Start Testimonials */
+.testimonials .container .parent .box>div h3 {
+    font-size: xx-large;
+}
+
+.testimonials .container .parent .box>div p {
+    font-size: large;
+}
+
+.testimonials .container .parent .box>div p::before {
+    font-size: xx-large;
+}
+
+/* End Testimonials */
+/* Start Blog Section */
+.blog-section .blog-box > div .text a {
+    font-size: medium;
+}
+
+.blog-section .blog-box > div .john,
+.blog-section .blog-box > div .john .user {
+    grid-template-columns: 1fr;
+    justify-items: center;
+    gap: 15px;
+}
+
+/* End Blog Section */
+/* Start Project Section */
+.call-to-action-section .text h2 {
+    font-size: x-large;
+}
+
+.call-to-action-section .text p {
+    font-size: large;
+}
+
+/* End Project Section */

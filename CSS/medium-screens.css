@@ -1,0 +1,27 @@
+/* Start About */
+.about .container .to-painter .text h2,
+.about .container .choose-us .text h2 {
+    font-size: 45px;
+}
+
+.about .container .to-painter .image,
+.about .container .choose-us .image {
+    max-height: none;
+}
+
+/* End About */
+/* Start Blog Section */
+.blog-section .blog-box {
+    grid-template-columns: auto auto;
+}
+/* End Blog Section */
+/* Start Project Section */
+.call-to-action-section {
+    background: url(../images/call-to-action.jpg) right top/cover;
+}
+
+.call-to-action-section .text h2 {
+    font-size: 45px;
+}
+
+/* End Project Section */

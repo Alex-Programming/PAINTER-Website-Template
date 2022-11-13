@@ -1,0 +1,149 @@
+/* Start Connect with us */
+.connect-with-us {
+    display: none;
+}
+
+/* End Connect with us */
+/* Start Header */
+header nav .fa-bars {
+    display: block;
+}
+
+header .title i,
+header .title h1 a {
+    font-size: 30px;
+}
+
+header nav input[id=menu]:checked+.fa-bars {
+    outline-width: 5px;
+}
+
+header .call-now {
+    display: none;
+}
+
+header nav .nav {
+    grid-auto-flow: row;
+    justify-content: stretch;
+    padding-inline: 50px;
+    position: absolute;
+    inset: -500% auto auto 0;
+    width: 100%;
+    background: var(--mainColor2);
+}
+
+header nav input[id=menu]:checked~.nav {
+    inset: 100% auto auto 0;
+}
+
+header nav input[id=menu]:checked~.nav::before {
+    content: "";
+    position: absolute;
+    inset: -22px 40.5px auto auto;
+    height: 100%;
+    width: 5px;
+    background: var(--mainColor3);
+}
+
+header nav .nav>li>a,
+header nav .nav>li>label,
+header nav .nav>li:last-child>a {
+    padding-block: 20px;
+    margin-right: 0px;
+}
+
+header nav .nav li a::before,
+header nav .nav li label::before,
+header nav .nav>li:last-child>a::after {
+    content: none;
+}
+
+header nav .nav li .pages-menu {
+    position: static;
+    width: 95%;
+}
+
+/* End Header */
+/* Start Home Section */
+.home-section {
+    background: url(../images/hero.jpg) top right/cover;
+}
+
+.home-section .parent {
+    text-align: center;
+    width: 100%;
+}
+
+.home-section .parent h2 {
+    font-size: 65px;
+}
+
+/* End Home Section */
+/* Start About */
+.about .container .to-painter,
+.about .container .choose-us {
+    grid-template-columns: auto;
+}
+
+.about .container .to-painter {
+    margin-bottom: 20px;
+}
+
+.about .container .to-painter .image,
+.about .container .choose-us .image {
+    max-height: 400px;
+    grid-template-rows: 720px;
+}
+
+.about .container .to-painter .text,
+.about .container .choose-us .text {
+    width: 100%;
+}
+
+/* End About */
+/* Start Services */
+.section-box {
+    grid-template-columns: repeat(2, calc((100% - 15px) / 2));
+}
+/* End Services */
+/* Start Quote Section */
+.section-quote .container .quote-box {
+    width: 100%;
+}
+/* End Quote Section */
+/* Start Team Section */
+.team-section .container .team-box {
+    grid-template-columns: repeat(2, 1fr);
+
+}
+/* End Team Section */
+/* Start Testimonials */
+.testimonials {
+    background: url(../images/testimonial.jpg) left top/cover;
+}
+
+.testimonials .container .parent {
+    width: 100%;
+}
+
+/* End Testimonials */
+/* Start Blog Section */
+.blog-section .blog-box {
+    grid-template-columns: auto auto;
+}
+/* End Blog Section */
+/* Start Project Section */
+.call-to-action-section .text {
+    width: 100%;
+}
+
+/* End Project Section */
+/* Start Footer */
+footer .container > div .header-footer span {
+    width: 85px;
+}
+
+footer .container {
+    grid-template-columns: repeat(2, calc((100% - 50px) / 2));
+}
+/* End Footer */
