@@ -711,3 +711,19 @@ footer .container .newsletter .follow li a:focus {
     justify-content: space-between;
 }
 /* End Copyright */
+/* Start button To Top */
+.to-top {
+    top: calc(100% - 85px);
+    z-index: 1;
+    float: right;
+}
+.to-top a {
+    height: 50px;
+    width: 50px;
+}
+.to-top a:hover {
+    box-shadow: 0 0 0 4px rgb(119 168 55 / 50%);
+    background: #96cd4d;
+    color: #000;
+}
+/* End button To Top */
