@@ -184,15 +184,20 @@
         }
 
         aside .categories ul li::before {
-            content: "\f105";
-            font-family: "Font Awesome 6 Free";
-            font-weight: 900;
-            margin-right: 5px;
-            font-size: 18px;
+            content: "";
+            width: 7px;
+            height: 7px;
+            border-right: 3px solid black;
+            border-bottom: 3px solid black;
+            margin-right: 10px;
+            transform: rotate(-45deg);
         }
 
         aside .categories ul li:hover {
             color: #ccb653;
+        }
+        aside .categories ul li:hover::before {
+            border-color: #ccb653;
         }
 
         aside .recent-post ul li {
