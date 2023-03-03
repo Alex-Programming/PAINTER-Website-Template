@@ -87,7 +87,7 @@ h6 {
 /* Scrollbar */
 ::-webkit-scrollbar {
     background-color: var(--mainColor2);
-    width: 17px;
+    width: 12px;
 }
 
 ::-webkit-scrollbar-thumb {
